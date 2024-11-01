@@ -1,0 +1,82 @@
+/*
+Copyright: Rupert Morris
+www.stimuli.ca | www.freshtunes.ca 
+released under the terms of the GPL:
+http://www.gnu.org/copyleft/gpl.html
+*/
+
+/* the div that encompasses slickr */
+#slickr {
+    text-align: left;
+    font-size: 0.65em;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+}
+
+.slickr_heading {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/* The image gallery that loads via AJAX */
+#slickrajaxcontent {
+    margin: 0 0 2em 200px;
+}
+
+#slickrajaxcontent img {
+    margin: 0 5px 5px 0;
+    border: 1px solid #000;
+}
+
+#slickr_navigation a {
+    float: left;
+    text-decoration: none;
+    margin-right: 1em;
+    padding: 0 3px 0 3px;
+    border: 1px solid #888;
+    background: #e5e5e5;
+}
+
+#slickr_pagelinks .slickr_navigation a {
+    margin-left: 0.5em;
+    padding: 1px 2px 1px 2px;
+    text-decoration: none;
+}
+
+#slickr_pagelinks .slickr_navigation .current {
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #888;
+    background: #e5e5e5;
+}
+
+/* Our Flickr Album navigation */
+#slickrajaxmenufloat {
+    float: left;
+    border-right: 1px solid #808080;
+    padding: 0 20px 10px 0;
+    width: 160px;
+    text-align: right;
+}
+
+#slickrajaxmenu .menu_album {
+    padding: 10px 0 10px 0;
+}
+
+#slickrajaxmenu .menu_album p {
+    margin: 0;
+}
+
+#slickrajaxmenu .menu_album .gallery_name {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+#slickrajaxmenu #slickrnavigation a {
+    text-decoration: none;
+    padding: 0 3px 0 3px;
+    border: 1px solid #888;
+    background: #e5e5e5;
+    margin-left: 10px;
+    float: right;
+}
